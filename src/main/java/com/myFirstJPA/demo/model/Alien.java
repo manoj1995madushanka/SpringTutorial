@@ -1,6 +1,11 @@
 package com.myFirstJPA.demo.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Alien {
+	@Id
 	private int aid;
 	private int aname;
 	public int getAid() {

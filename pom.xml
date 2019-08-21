@@ -38,6 +38,15 @@
         <version>1.4.193</version>
 		</dependency>
 		
+		<!-- https://mvnrepository.com/artifact/org.testcontainers/mysql -->
+		<dependency>
+    		<groupId>org.testcontainers</groupId>
+    		<artifactId>mysql</artifactId>
+    		<version>1.11.3</version>
+   			<scope>test</scope>
+		</dependency>
+		
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
